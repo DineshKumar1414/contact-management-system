@@ -28,11 +28,12 @@ const Contacts = () => {
     return (
         <div className="justify-center pt-16 text-gray-50   p-4  w-full ">
             <div className="m-4">
-                <button className="rounded-[20px] w-full bg-green-500 p-2 text-xl">
+              
                     <Link to="/contact_form">
-                        Create Contact
+                    <button className="rounded-[20px] w-full bg-green-500 p-2 text-xl">
+                        Create Contact  </button>
                     </Link>
-                </button>
+              
 
             </div>
             {AllContacts.length == 0 && <div className=" m-auto w-fit p-4 align-middle text-blue-500 justify-center">
@@ -71,7 +72,7 @@ const Contacts = () => {
                             </div>
 
                             <div className="flex justify-between my-2">
-                                <Link to={`edit/${el.id}`}>
+                                <Link to={`/edit/${el.id}`}>
                                     <button className="rounded-[12px] p-2 bg-green-500 text-white">
 
                                         Edit

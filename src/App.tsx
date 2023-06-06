@@ -1,7 +1,5 @@
 
 import { useLocation } from "react-router-dom";
-import './App.css';
-import SideBar from './Components/SideBar';
 import AllRoutes from './Pages/AllRoutes';
 import { useState,useEffect } from "react";
 import Sidebar from "./Components/SideBar";
