@@ -12,7 +12,7 @@ export default function Sidebar() {
                         <ul className="pt-2 pb-4 space-y-1 text-sm">
                             <li className="rounded-sm hover:bg-green-500 focus:bg-green-500 focus-within:bg-green-500 ">
                                 <Link
-                                    to="/"
+                                    to="contact-management-system"
                                     className="flex  items-center p-2 space-x-3 rounded-md"
                                 >                                    
                                     <span className="hover:text-white focus:text-white focus-within:text-white">Contacts</span>

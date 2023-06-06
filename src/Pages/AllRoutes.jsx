@@ -14,7 +14,7 @@ const AllRoutes=()=>{
    
     return(
         <Routes >
-            <Route path="/" element={<Contacts/>}/>
+            <Route path="/contact-management-system" element={<Contacts/>}/>
             <Route path="/contact_form" element={<ContactForm/>}/>
             <Route path="/chart-and-maps" element={<Dashboard/>}/>
             <Route path="/edit/:id" element={<EditContact/>}/>

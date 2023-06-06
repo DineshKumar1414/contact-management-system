@@ -77,9 +77,9 @@ function App() {
         <div className='w-full '>
           <Main open={open}>
             <AppBar>
-              <div className='z-50 w-full flex flex-row flex-start fixed shadow-sm shadow-slate-700 top-0 left-0 text-2xl  text-white bg-green-500 font-bold p-4 text-center'>
+              <div className='z-50 w-full flex flex-row justify-content-start align-items-center flex-grow-1 fixed shadow-sm shadow-slate-700 top-0 left-0 text-2xl  text-white bg-green-500 font-bold p-4 text-center'>
                 <button
-                  className="w-[50px] p-2 text-left"
+                  className="w-[50px] p-2 text-left flex-grow-1"
                   onClick={open ? handleDrawerClose : handleDrawerOpen}
                 >
                   <img width="25" height="25" src={open ? leftArrow : hamburger} />
