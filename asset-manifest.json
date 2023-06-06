@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/contact-management-system/static/css/main.22583522.css",
-    "main.js": "/contact-management-system/static/js/main.c4da06d4.js",
+    "main.css": "/contact-management-system/static/css/main.6662ea1e.css",
+    "main.js": "/contact-management-system/static/js/main.3261dfcb.js",
     "static/js/787.cf6a4479.chunk.js": "/contact-management-system/static/js/787.cf6a4479.chunk.js",
     "static/media/contact.png": "/contact-management-system/static/media/contact.f5fbee97231f0b1442d8.png",
     "static/media/left-arrow.png": "/contact-management-system/static/media/left-arrow.60d90daa56ef2bc0db35.png",
     "static/media/Hamburger_icon.svg.png": "/contact-management-system/static/media/Hamburger_icon.svg.4f34b9eef6282eb91cd5.png",
     "static/media/maps.png": "/contact-management-system/static/media/maps.2475cb08f474df0d1cd0.png",
     "index.html": "/contact-management-system/index.html",
-    "main.22583522.css.map": "/contact-management-system/static/css/main.22583522.css.map",
-    "main.c4da06d4.js.map": "/contact-management-system/static/js/main.c4da06d4.js.map",
+    "main.6662ea1e.css.map": "/contact-management-system/static/css/main.6662ea1e.css.map",
+    "main.3261dfcb.js.map": "/contact-management-system/static/js/main.3261dfcb.js.map",
     "787.cf6a4479.chunk.js.map": "/contact-management-system/static/js/787.cf6a4479.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.22583522.css",
-    "static/js/main.c4da06d4.js"
+    "static/css/main.6662ea1e.css",
+    "static/js/main.3261dfcb.js"
   ]
 }
