@@ -33,7 +33,7 @@ function ContactForm() {
 
     return (
         <div className="w-full md-w-6/12 lg-w-6/12 sm-w-full xs-w-full  mx-auto my-4 pt-16">
-            <h2 className="text-2xl font-bold mb-4"> Create Contact</h2>
+            <h2 className="text-2xl text-center font-bold mb-4"> Create Contact</h2>
             <div className="mb-4 w-full flex flex-row justify-content:space-between align-items:center">
                 <label className="w-2/6 xs-w-full text-left block font-bold mb-2" htmlFor="first-name">
                     First Name
@@ -89,12 +89,13 @@ function ContactForm() {
                     <option value={"inactive"}>Inactive</option>
                 </select>
             </div>
+            <div className="text-center">
             <button
-                className="bg-green-500 hover:bg-green-500 text-white font-bold py-2 px-4 rounded"
+                className="bg-green-500  hover:bg-green-500 text-white font-bold py-2 px-4 rounded"
                 onClick={handleSave}
             >
                 Add Contact
-            </button>
+            </button></div>
         </div>
     );
 }
